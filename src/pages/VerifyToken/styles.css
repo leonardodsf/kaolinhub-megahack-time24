@@ -1,0 +1,66 @@
+body{
+  background: #f2f2f2;
+}
+
+.div-content-verify-token {
+  width: 100vw;
+  height: 100vh;
+}
+.div-content-verify-token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.div-verify-token-img {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 18px;
+}
+
+.div-verify-token-img img{
+  margin-bottom: 1em;
+}
+
+.div-verify-token-title-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #111;
+}
+
+.div-verify-token-img h2{
+  font-family: Post No Bills Jaffna Bold;
+}
+
+.div-verify-token-title-btn h2,
+.div-verify-token-title-btn h4 {
+  margin-bottom: 50px;
+}
+
+.div-verify-token-title-btn h2 {
+  font-size: 36px;
+}
+
+.div-verify-token-title-btn h4 {
+  font-size: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.div-btn-auth-token a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .div-verify-token-title-btn h2 {
+    font-size: 24px;
+  }
+  .div-verify-token-title-btn h4 {
+    font-size: 16px;
+    width: 300px;
+  }
+  
+}

@@ -1,0 +1,105 @@
+.div-root-panel {
+  width: 100%;
+  height: 100%;
+  background: #efeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.map-container{
+  position:absolute;
+  width:100%;
+  height:calc(100% - 60px);
+  margin-top:60px;
+  overflow: hidden;
+}
+.buttonCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 109px;
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  z-index: 1;
+  padding: 20px;
+}
+.icon-close-modal {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000;
+  margin-right: 10px;
+  right: -10px;
+  top: -10px;
+  margin: 15px;
+  position: absolute;
+  cursor: pointer;
+}
+.buttonModal{
+  width:80%;
+}
+.button {
+  width: 166px;
+  height: 68px;
+  background: #2d3277;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+.button:hover {
+  filter: brightness(80%);
+}
+
+.map-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.accept-info{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:100%;
+  justify-content: space-evenly;
+  align-items:center;
+  text-align: center;
+  color:#2D3277;
+}
+.card-seller-info{
+  position: absolute;
+  width:100%;
+  max-width: 300px;
+  height: 50px;
+  bottom:65px;
+  left:30px;
+  right:20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  z-index:3;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.label{
+  font-weight: 600;
+}
+.address{
+  font-size:90%;
+  width:300px;
+}
+
+

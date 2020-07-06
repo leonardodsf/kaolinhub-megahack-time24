@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+.Toastify{
+  z-index:9999;
+}
+.input {
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+  background: #f2f2f2;
+}
+
+.div-go-create-account {
+  width: 160px;
+}
+
+.div-go-create-account-register .link-go-create-account,
+.div-go-create-account .link-go-create-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  color: #41414d;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.div-go-create-account-register .link-go-create-account:hover,
+.div-go-create-account .link-go-create-account:hover {
+  filter: brightness(80%);
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+}

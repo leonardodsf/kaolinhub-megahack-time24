@@ -1,0 +1,38 @@
+.div-modal-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.568);
+  top: 0;
+  left: 0;
+  z-index:5;
+}
+.div-modal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-modal {
+  width:95%;
+  max-width: 500px;
+  height: 400px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .div-modal {
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    background: red;
+    z-index: 99999;
+  }
+} */

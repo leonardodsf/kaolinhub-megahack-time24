@@ -1,0 +1,51 @@
+.div-login-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width:100%;
+  max-width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.div-input-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.div-input-login input {
+  margin-bottom: 20px;
+}
+
+.div-title-card-login {
+  color: #2d3277;
+  font-size: 18px;
+  font-weight: 700;
+}
+.button-container{
+  width:70%;
+}
+.link-forgot-password {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0066ff;
+  font-size: 14px;
+  transition: filter 0.3s ease;
+}
+
+.link-forgot-password:hover {
+  filter: brightness(80%);
+}
+
+@media only screen and (max-width: 768px) {
+  .div-login-card {
+    box-shadow: none;
+    height:100%;
+  }
+}
